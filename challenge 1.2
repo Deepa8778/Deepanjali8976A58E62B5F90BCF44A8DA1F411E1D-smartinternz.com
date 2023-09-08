@@ -1,0 +1,16 @@
+# Leap Year
+"""
+year % 4 == 0 &
+year % 100 ! = 0 /
+year % 400 == 0
+"""
+def isLeapyear(year):
+  if(year%4==0and year%100!=0)or year%400==0:
+    return True
+  else:
+    return False
+year=int(input ('enter a year:'))
+if isLeapyear (year):
+   print('{} is a leapyear.'. formet(year))
+else:
+   print('{} is not a leap year.'.format(year)) 
